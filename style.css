@@ -1,0 +1,26 @@
+body{
+    background-color: darkslategray;
+    text-align: center;
+    color: lightseagreen;
+}
+#navbar{
+    width: auto;
+    height: 50px;
+    background-color: rgb(49, 49, 49);
+    font-size:20px;
+    text-align: center;
+    z-index: 1;
+    
+    border: 10px;
+    border-color: seagreen;
+}
+.navbutton{
+    width:75px;
+    height: 50px;
+    background-color: dimgray;
+    border: 0;
+    border-radius: 15%;
+}
+a{
+    color: rgb(44, 228, 219);;
+}
