@@ -24,6 +24,15 @@ body{
     color: rgb(211, 211, 211);
     box-shadow: 0 4px 0px rgba(0, 0, 0, 0.2);
 }
+.normbutton{
+    width:75px;
+    height: 50px;
+    background-color: rgb(85, 85, 85);
+    border: 0;
+    border-radius: 15%;
+    color: rgb(211, 211, 211);
+    box-shadow: 0 7.5px 7.5px rgba(0, 0, 0, 0.2);
+}
 a{
     color: rgb(255, 255, 255);;
 }
