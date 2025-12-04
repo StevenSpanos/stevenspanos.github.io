@@ -15,23 +15,28 @@ body{
     border: 10px;
     border-color: rgb(38, 42, 40);
 }
-.navbutton{
+button{
     width:75px;
     height: 50px;
     background-color: rgb(45, 45, 45);
     border: 0;
     border-radius: 15%;
     color: rgb(211, 211, 211);
+    transition: 0.1s ease-in-out;
+}
+button.navbutton{
+    background-color: rgb(45, 45, 45);
     box-shadow: 0 4px 0px rgba(0, 0, 0, 0.2);
 }
-.normbutton{
-    width:75px;
-    height: 50px;
+button.normbutton{
     background-color: rgb(85, 85, 85);
-    border: 0;
-    border-radius: 15%;
-    color: rgb(211, 211, 211);
     box-shadow: 0 7.5px 7.5px rgba(0, 0, 0, 0.2);
+}
+button:hover{
+    background-color: rgb(56, 40, 56);
+}
+button.normbutton:hover{
+    background-color: rgb(96, 80, 96);
 }
 a{
     color: rgb(255, 255, 255);;
@@ -46,4 +51,19 @@ a{
     padding-left: 15px;
     padding-right: 15px;
     padding-top: 5px;
+}
+
+div.display{
+    background-color: rgb(46, 46, 46);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); 
+    width:175px; 
+    margin: auto; 
+    padding: 10px; 
+    text-align:center;
+    transition: 0.25s ease-in-out;
+}
+
+div.display:hover{
+    box-shadow: 0 6px 10px rgba(0,0,0,1);
+    background-color: rgb(56, 40, 56);
 }
